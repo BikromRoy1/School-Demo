@@ -195,6 +195,13 @@
   });
 
   /**
+   * Initiate glightbox
+   */
+  const glightbox = GLightbox({
+    selector: '.glightbox',
+  });
+
+  /**
    * News slider
    */
   new Swiper('.news-slider', {
