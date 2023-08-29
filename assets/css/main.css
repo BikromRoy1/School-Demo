@@ -808,9 +808,38 @@ section {
   font-weight: 700;
   font-size: 18px;
 }
+#notice .notice-text a {
+  font-family: var(--font-secondary);
+}
 /*--------------------------------------------------------------
 # news
 --------------------------------------------------------------*/
+#news {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.news-animation-icons {
+  position: absolute;
+  z-index: -1;
+  top: 7%;
+  left: 8%;
+  animation: banner_animi_2 linear 3s infinite alternate;
+}
+@keyframes banner_animi_2 {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+.news-animation-icons2 {
+  position: absolute;
+  right: 113.4px;
+  top: 45px;
+  animation: banner_animi_2 linear 3s infinite alternate;
+}
 .news .news-carousel,
 .news .news-slider {
   overflow: hidden;
