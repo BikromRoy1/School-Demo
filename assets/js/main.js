@@ -195,6 +195,17 @@
   });
 
   /**
+   * Preloader
+   */
+
+  const preloader = select('#preloader');
+  if (preloader) {
+    window.addEventListener('load', () => {
+      preloader.remove();
+    });
+  }
+
+  /**
    * Initiate glightbox
    */
   const glightbox = GLightbox({
