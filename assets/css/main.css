@@ -755,6 +755,11 @@ section {
 #notice .notice-all-btn {
   text-align: center;
 }
+#notice .notice-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 #notice .notice-all-btn a {
   background: var(--color-primary);
   color: var(--color-inverse);
@@ -836,8 +841,8 @@ section {
 }
 .news-animation-icons2 {
   position: absolute;
-  right: 113.4px;
-  top: 45px;
+  right: 100.4px;
+  bottom: 45px;
   animation: banner_animi_2 linear 3s infinite alternate;
 }
 .news .news-carousel,
@@ -940,6 +945,9 @@ section {
 #studentCount {
   background: var(--section-background);
   padding-bottom: 40px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 #studentCount .class-items {
   background: #fff;
@@ -1094,6 +1102,11 @@ section {
 /*--------------------------------------------------------------
 # videos Gallery
 --------------------------------------------------------------*/
+.videos {
+  background-image: url(../img/animation/blog-bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
 .videos .videos-items {
   background: var(--color-inverse);
   border-radius: 5px 0 5px;
