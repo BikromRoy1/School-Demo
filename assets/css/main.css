@@ -195,6 +195,58 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 70px 0 60px 0;
+  min-height: 30vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin-top: 154px;
+  background-repeat: no-repeat;
+}
+.breadcrumbs:before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  inset: 0;
+}
+.breadcrumbs h3 {
+  font-size: 33px;
+  font-weight: 700;
+  color: #fff;
+  font-family: var(--font-secondary);
+}
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 0 10px 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+.breadcrumbs ol a {
+  color: #fff;
+  transition: 0.3s;
+  font-weight: 600;
+}
+.breadcrumbs ol a i {
+  margin-right: 1px;
+}
+.breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+.breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #fff;
+  content: '/';
+}
+/*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
@@ -1296,4 +1348,150 @@ section {
   text-align: center;
   color: var(--color-inverse);
   font-size: 14px;
+}
+
+/* !--About us Pages */
+/*--------------------------------------------------------------
+# About Page css
+--------------------------------------------------------------*/
+.school-history .school-history-info {
+  border-top: 3px solid var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+.school-history .school-history-info p {
+  text-align: justify;
+  color: var(--text-tittle-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+.school-history .school-history-info p:last-child {
+  margin-bottom: 0;
+}
+
+/* !--President's speech Pages */
+/*--------------------------------------------------------------
+# President's speech css
+--------------------------------------------------------------*/
+.President-history .President-history-info {
+  border-top: 3px solid var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+.President-history .President-history-info p {
+  text-align: justify;
+  color: var(--text-tittle-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+.President-history .President-history-info p:last-child {
+  margin-bottom: 0;
+}
+.President-history .President-history-info h4 {
+  color: var(--text-title-color);
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+.President-history .President-history-info h5 {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 15px;
+  color: #666666;
+  margin-bottom: 0;
+}
+/* !--Notice Board Pages */
+/*--------------------------------------------------------------
+# Notice Board css
+--------------------------------------------------------------*/
+#noitce-Board .noitce-Board-single-items {
+  border-top: 3px solid var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+#noitce-Board .noitce-Board-items {
+  display: flex;
+  align-items: center;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#noitce-Board .noitce-Board-date {
+  margin-right: 25px;
+  text-align: center;
+}
+#noitce-Board .noitce-Board-date .date {
+  background: var(--text-tittle-color);
+  color: var(--color-inverse);
+  width: 150px;
+}
+#noitce-Board .noitce-Board-date .date h4 {
+  font-size: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 0;
+}
+#noitce-Board .noitce-Board-date .Years {
+  background: #002f50;
+  color: var(--color-inverse);
+}
+#noitce-Board .noitce-Board-date .Years h5 {
+  font-size: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 0;
+}
+#noitce-Board .noitce-Board-text h4 {
+  color: var(--text-tittle-color);
+  font-weight: 700;
+  font-size: 18px;
+}
+#noitce-Board .noitce-Board-text a {
+  font-family: var(--font-secondary);
+}
+/* !--Notice Details Pages */
+/*--------------------------------------------------------------
+# Notice Details css
+--------------------------------------------------------------*/
+.notice-details .noticeDetails-info {
+  border-top: 3px solid var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+.notice-details .noticeDetails-info h4 {
+  font-size: 20px;
+  color: var(--text-tittle-color);
+  font-weight: 700;
+}
+.notice-details .noticeDetails-info p {
+  font-family: var(--font-secondary);
+  color: #666666;
+}
+.notice-details .noticeDetails-images {
+  margin: 0 auto;
+  text-align: center;
+}
+.notice-details .noticeDetails-images img {
+  cursor: pointer;
+  border: 2px solid #dbdbdb;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.notice-details .noticeDetails-images img:hover {
+  border: 2px solid var(--color-primary);
 }
