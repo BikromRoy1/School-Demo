@@ -165,6 +165,11 @@
     true
   );
 
+  // pop
+  window.onload = function () {
+    $('.modal').modal('show');
+  };
+
   /**
    * Scroll with ofset on page load with hash links in the url
    */

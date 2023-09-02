@@ -136,7 +136,7 @@
             <a class="nav-link scrollto" href="#contact">সুবর্ণজয়ন্তী</a>
           </li>
           <li><a class="nav-link scrollto" href="#contact">ফলাফল</a></li>
-          <li><a class="nav-link scrollto" href="#contact">যোগাযোগ </a></li>
+          <li><a class="nav-link scrollto" href="contact.html">যোগাযোগ </a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -998,14 +998,55 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="ri-upload-cloud-2-line"></i></a>
 
+
+  <!-- Modal -->
+  <div class="modal fade home-modal-box" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h4 class="modal-body-tiitle">ওয়েবসাইট ক্রয় করতে আমাদের সাথে যোগাযোগ করুন</h4>
+           <form action="#" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">আপনার  নাম</label>
+                  <input type="text" name="name" placeholder="নাম" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="number"> মোবাইল নাম্বার </label>
+                  <input type="text" class="form-control" placeholder="নাম্বার" name="number" id="number" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">আপনার ইমেইল</label>
+                <input type="email" class="form-control" name="email" placeholder=" ই-মেইল" id="email" required>
+              </div>
+              <!-- <div class="form-group">
+                <label for="name">আপনার মন্তব্য</label>
+                <textarea class="form-control" name="message" placeholder="আপনার মন্তব্য" rows="4"></textarea>
+              </div> -->
+              <div class="text-center"><button type="submit">বার্তা পাঠান</button></div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

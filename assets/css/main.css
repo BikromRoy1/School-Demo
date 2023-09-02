@@ -117,10 +117,66 @@ section {
 
 @media (min-width: 1024px) {
   .section-title p {
-    width: 50%;
+    width: 76%;
   }
 }
 
+/*--------------------------------------------------------------
+# Modal Text
+--------------------------------------------------------------*/
+.home-modal-box .php-email-form {
+  width: 100%;
+  border-top: 3px solid var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.home-modal-box .php-email-form .form-group {
+  margin-bottom: 20px;
+}
+.home-modal-box .modal-body-tiitle {
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.home-modal-box .php-email-form label {
+  padding-bottom: 8px;
+  font-weight: 500;
+  font-family: var(--font-secondary);
+}
+.home-modal-box .php-email-form input,
+.home-modal-box .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+  border-radius: 4px;
+}
+.home-modal-box .php-email-form input:focus,
+.home-modal-box .php-email-form textarea:focus {
+  border-color: var(--color-primary);
+}
+.home-modal-box .form-group input {
+  height: 40px;
+}
+.home-modal-box .php-email-form textarea {
+  padding: 10px 12px;
+}
+.home-modal-box .php-email-form button[type='submit'] {
+  background: var(--color-primary);
+  border: 0;
+  padding: 6px 23px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 6px;
+  font-weight: 600;
+  font-family: var(--font-secondary);
+}
+.home-modal-box .php-email-form button[type='submit']:hover {
+  color: var(--text-tittle-color);
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
