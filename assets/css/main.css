@@ -1741,3 +1741,42 @@ section {
 #class-result .Result-list-table tr td:nth-child(4) {
   text-align: center;
 }
+/* !-- Exam free Pages */
+/*--------------------------------------------------------------
+# Exam free Details
+--------------------------------------------------------------*/
+#exam-free .exam-free-info {
+  border-top: 3px solid var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+#exam-free .exam-free-info h4 {
+  font-size: 20px;
+  color: var(--text-tittle-color);
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+#exam-free .exam-free-info ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+#exam-free .exam-free-info ul li {
+  padding-left: 28px;
+  position: relative;
+}
+#exam-free .exam-free-info ul li + li {
+  margin-top: 7px;
+}
+#exam-free .exam-free-info ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: var(--color-primary);
+  line-height: 1;
+}
