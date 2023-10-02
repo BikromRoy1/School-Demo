@@ -1780,3 +1780,113 @@ section {
   color: var(--color-primary);
   line-height: 1;
 }
+/* !-- onlineAdmission Pages */
+/*--------------------------------------------------------------
+# onlineAdmission from
+--------------------------------------------------------------*/
+.onlineAdmission-section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.onlineAdmission-section-title i {
+  color: var(--color-primary);
+  font-size: 35px;
+}
+.onlineAdmission-section-title p {
+  margin: 0px auto 0 auto;
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  .onlineAdmission-section-title p {
+    width: 76%;
+  }
+}
+#onlineAdmission .onlineAdmission-content {
+  border-top: 3px solid var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+#onlineAdmission .onlineAdmission-content h4 {
+  font-size: 20px;
+  color: var(--text-tittle-color);
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+}
+#onlineAdmission .php-email-form input,
+#onlineAdmission .php-email-form textarea,
+#onlineAdmission .php-email-form select {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.onlineAdmission .php-email-form input,
+.onlineAdmission .php-email-form select {
+  height: 44px;
+}
+.onlineAdmission .php-email-form input[type='checkbox'] {
+  height: 0px !important;
+  padding: 8px !important;
+  width: 1em !important;
+  height: 1em !important;
+  border-radius: 0.25em !important;
+  margin-right: 7px !important;
+}
+#onlineAdmission .php-email-form input:focus,
+#onlineAdmission .php-email-form textarea:focus,
+.onlineAdmission .php-email-form select:focus {
+  border-color: var(--color-primary);
+}
+#onlineAdmission .php-email-form input {
+  padding: 10px 15px;
+}
+#onlineAdmission .php-email-form textarea {
+  padding: 12px 15px;
+}
+#onlineAdmission .php-email-form button[type='submit'] {
+  background: var(--color-primary);
+  border: 0;
+  padding: 6px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  font-weight: 600;
+  font-family: var(--font-secondary);
+  margin-top: 20px;
+}
+#onlineAdmission .php-email-form button[type='submit']:hover {
+  background: var(--text-tittle-color);
+}
+#onlineAdmission .php-email-form .payment-note {
+  background-color: #ff9;
+  padding: 15px;
+  border-radius: 10px;
+}
+#onlineAdmission .php-email-form .payment-note p {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--color-secondary);
+}
+#onlineAdmission .php-email-form .payment-note p:last-child {
+  margin-bottom: 0px;
+}
+.onlineAdmission .php-email-form label {
+  padding-bottom: 5px;
+  font-weight: 600;
+  font-size: 15px;
+}
+#onlineAdmission .php-email-form .font-color {
+  color: rgb(255, 0, 0);
+  font-weight: normal;
+}
+.input-file-container {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 15px;
+  border: 2px dashed grey;
+}
